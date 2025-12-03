@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "build/client", // Netlify তে publish folder
+    outDir: "build/client", 
   },
-  base: "/", // SPA জন্য
+  base: "/", 
 });
