@@ -5,7 +5,7 @@ import { publicRoutes } from "./routes/public.routes";
 import { privateRoutes } from "./routes/private.routes";
 
 export default [
-  layout("pages/auth/layout.tsx", authRoutes),
-  layout("pages/private/layout.tsx", privateRoutes),
+  // layout("pages/auth/layout.tsx", authRoutes),
+  // layout("pages/private/layout.tsx", privateRoutes),
   layout("pages/public/layout.tsx", publicRoutes),  // ← This loads your dashboard
 ] satisfies RouteConfig;
